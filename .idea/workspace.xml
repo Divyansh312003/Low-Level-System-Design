@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64f9bff9-cf78-415e-be12-19b32c8ced4b" name="Changes" comment="" />
+    <list default="true" id="2bd52aa4-f77c-4a38-b8f2-b45f0f88aa1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LLDModelDesigns/ElevatorDesign/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +15,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2zV8zTEfY4ZC41b5Ejri97P11i7" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2ztvcAvAACc3yZ9AnLIKbIbtDUi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,20 +28,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/OneDrive/Documents/CP"
+    "last_opened_file_path": "C:/Users/ASUS/OneDrive/Documents/ReactNative"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="64f9bff9-cf78-415e-be12-19b32c8ced4b" name="Changes" comment="" />
-      <created>1751805143752</created>
+      <changelist id="2bd52aa4-f77c-4a38-b8f2-b45f0f88aa1c" name="Changes" comment="" />
+      <created>1752563264835</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751805143752</updated>
+      <updated>1752563264835</updated>
     </task>
     <servers />
   </component>
