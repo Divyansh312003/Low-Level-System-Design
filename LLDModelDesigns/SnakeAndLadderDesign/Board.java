@@ -12,7 +12,7 @@ public class Board {
      Board(int size,int snakes,int ladders){
         initialize(size);
         addSnakesAndLadders(snakes,ladders);
-        
+
      }
 
      void initialize(int s){
@@ -27,22 +27,21 @@ public class Board {
      void addSnakesAndLadders(int snakes,int ladders){
           while(snakes>0){
              int st=ThreadLocalRandom.current().nextInt(1,cells.length*cells.length-1);
-              int end=ThreadLocalRandom.current().nextInt(1,cells.length*cells.length-1);
+             int end=ThreadLocalRandom.current().nextInt(1,cells.length*cells.length-1);
               if(end>=st) continue;
               cells[st][end].start=st;
               cells[st][end].end=end;
               cells[st][end].type=Type.SNAKE;
               snakes--;
-
-          }
-
+            }
+            
           while(ladders>0){
-               int st=ThreadLocalRandom.current().nextInt(0,cells.length*cells.length);
+              int st=ThreadLocalRandom.current().nextInt(0,cells.length*cells.length);
               int end=ThreadLocalRandom.current().nextInt(0,cells.length*cells.length);
               if(st>=end) continue;
               cells[st][end].start=st;
               cells[st][end].end=end;
-               cells[st][end].type=Type.LADDER;
+              cells[st][end].type=Type.LADDER;
               ladders--;
           }
      }
@@ -52,7 +51,7 @@ public class Board {
         Scanner sc=new Scanner(System.in);
 
         while(numOfPlayers>0){
-            System.out.println("Enter name of player :" ); 
+            System.out.println("Enter name of player :"); 
             String name=sc.nextLine();
             Player player=new Player(name,0);
             dq.add(player);
@@ -102,6 +101,7 @@ public class Board {
                 }
             }
         }
+        sc.close();
 
        
      }
