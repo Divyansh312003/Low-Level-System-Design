@@ -3,7 +3,7 @@ package ObservableDesignPattern.Observer;
 import ObservableDesignPattern.Observable.Observable;
 
 public class MessageNotify implements Observer{
-     Observable obj;
+    Observable obj;
     String phoneNum;
     //constructor injection
     public MessageNotify(Observable ob,String phone){

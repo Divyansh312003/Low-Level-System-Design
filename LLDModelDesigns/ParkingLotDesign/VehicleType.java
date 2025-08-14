@@ -1,5 +1,5 @@
 package LLDModelDesigns.ParkingLotDesign;
 
-public class VehicleType {
-    
+public enum VehicleType {
+    TWO_WHEELER,FOUR_WHEELER
 }

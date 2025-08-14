@@ -1,5 +1,7 @@
+package LLDModelDesigns.ElevatorDesign;
+
+import java.util.List;
+
 public class Building {
-    private String name;
-    private int numOfFloors;
-    private ElevatorController controller;
+    List<Floor> floors;
 }
